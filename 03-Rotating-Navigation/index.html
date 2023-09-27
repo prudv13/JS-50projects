@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Rotating Navigation</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Jeong Kwan, The Philosopher Chef</h1>
+            <small>Netflix Series: The Chef's Table</small>
+            <p>
+                Jeong Kwan is one of the best chefs in the world. This would be notable by any metric—the best in the
+                world!—but is all the more notable because Jeong Kwan is a Buddhist nun who lives in the Chunjinam
+                hermitage in the mountains of South Korea. If you want to taste her temple food—it is hard to
+                overestimate the degree to which you should try to make this happen—you’ll have to head east, to Seoul,
+                and then 169 miles south, to the hermitage, where she cooks for her fellow nuns and for the guests who
+                have been coming more frequently now that the secret of her culinary genius is out.
+                As a Seon Buddhist, she lives on a strictly vegan diet, excluding certain varieties of Allium, and no
+                animal products. She quickly shot into the global limelight when she was featured on an episode of the
+                Netflix series Chef’s Table in 2017.
+                In keeping with her Buddhist philosophy, Jeong Kwan makes every effort to work with nature. From her
+                gardening practices (which we would consider far beyond the status of organic) to her cooking and
+                fermenting. Everything is grown seasonally and treated as such that it celebrates the ingredient for
+                what it is.
+            </p>
+            <div class="img-container">
+                <img class="grid-item1" src="./assets/img1.jpeg" alt="jeong kwan img">
+                <img class="grid-item2" src="./assets/img2.png" alt="jeong kwan img">
+                <img class="grid-item3" src="./assets/img3.jpg" alt="jeong kwan img">
+                <img class="grid-item4" src="./assets/img4.jpg" alt="jeong kwan img">
+                <img class="grid-item5" src="./assets/img5.jpg" alt="jeong kwan img">
+            </div>
+        </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-user-alt"></i>About</li>
+            <li><i class="fas fa-envolope"></i>Contact</li>
+        </ul>
+    </nav>
+    <script src="index.js"></script>
+</body>
+
+</html>
